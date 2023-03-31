@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Másters UG | Guía de profesores de la Universidad de Guayaquil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles/normalize.css" />
+    <link rel="stylesheet" href="./src/styles/variables.css" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/countdown.css" />
+    <script src="./src/scripts/simplyCountdown.min.js"></script>
+    <script defer src="./src/scripts/countdown.js"></script>
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header" style="position: unset">
+      <div class="header__container">
+        <a href="./index.html">
+          <img class="header__logo" src="./public/mastersug.svg" alt="logo de Vota MastersUG" />
+        </a>
+        <nav class="header__links">
+          <a href="./results/" class="header__link">Resultados</a>
+          <a href="./about/" class="header__link">Acerca de</a>
+        </nav>
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="#292929"
+          id="verticalMenu"
+          class="header__verticalMenu"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20.5" cy="8.5" r="3.5" fill="inherit" />
+          <circle cx="20.5" cy="20.5" r="3.5" fill="inherit" />
+          <circle cx="20.5" cy="32.5" r="3.5" fill="inherit" />
+        </svg>
+      </div>
+    </header>
+    <main class="main">
+      <div class="countdown">
+        <h1 class="countdown__title">
+          Participa en la creación de la guía definitiva de profesores
+        </h1>
+        <span class="countdown__subtitle">Inicia en:</span>
+        <div id="watch-container" class="countdown__watch"></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        Creado con 💙 en la carrera de
+        <a
+          href="https://github.com/anthonysanlucas/mastersUG"
+          target="_blank"
+          class="footer__link accent-text">
+          Tecnologías de la Información
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>

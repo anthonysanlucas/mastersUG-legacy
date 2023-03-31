@@ -1,0 +1,14 @@
+:root {
+  --background-linear-gradient: linear-gradient(to left, #dfe9f3 0%, white 100%);
+  --accent-color: #00539f;
+  --hover-accent-color: #0071db;
+  --grey-400: #b7c1c8;
+  --slate-600: #475569;
+  --black-text: #292929;
+  --white-text: #f2f2f2;
+  --extra-large-font: 3.052rem;
+  --large-font: 1.953rem;
+  --regular-font: 1.125rem;
+  --small-font: 0.9rem;
+  --b-radius: 0.25rem;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "masters-ug",
+  "version": "1.0.0",
+  "description": "Guía definitiva para conocer a los profesores de la Universidad de Guayaquil",
+  "author": "Anthony San Lucas",
+  "dependencies": {
+    "chart.js": "^4.2.1"
+  }
+}

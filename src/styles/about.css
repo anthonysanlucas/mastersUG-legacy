@@ -1,0 +1,24 @@
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 53.25rem;
+}
+
+.about__title {
+  font-size: var(--extra-large-font);
+}
+
+.about__text {
+  line-height: 1.75rem;
+}
+
+.about__note {
+  background-color: var(--grey-400);
+  padding: 1rem;
+  border-radius: var(--b-radius);
+}
+
+.about__list {
+  list-style: square;
+  line-height: 1.75rem;
+}

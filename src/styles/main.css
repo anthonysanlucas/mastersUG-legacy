@@ -1,0 +1,129 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--black-text);
+  font-size: var(--regular-font);
+  background-image: var(--background-linear-gradient);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-image: var(--background-linear-gradient);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.25rem;
+  width: 100%;
+  padding: 0 1rem;
+  max-width: 87.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  transition: transform 0.3s ease-in-out;
+  user-select: none;
+}
+
+.header__links {
+  display: flex;
+  list-style: none;
+  column-gap: 0.25rem;
+  user-select: none;
+}
+
+.header__link {
+  display: block;
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__verticalMenu {
+  display: none;
+  transition: fill 0.2s ease;
+}
+
+.header__verticalMenu--active {
+  fill: var(--accent-color);
+}
+
+.main {
+  display: flex;
+  min-height: calc(100vh - 6.25rem - 4rem);
+  padding: 0 1rem;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  min-height: 4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--small-font);
+  padding: 0 1rem;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.accent-text {
+  color: var(--accent-color);
+}
+
+.pointer-none {
+  pointer-events: none;
+}
+
+.header__logo:hover {
+  transform: scale(1.05);
+}
+
+.header__link:hover {
+  color: var(--hover-accent-color);
+}
+
+.footer__link:hover {
+  color: var(--hover-accent-color);
+}
+
+@media screen and (max-width: 44rem) {
+  .header.responsive .header__links {
+    position: absolute;
+    top: 6.25rem;
+    left: 0;
+    width: 100%;
+    row-gap: 1.5rem;
+    height: calc(100vh - 6.25rem);
+    flex-direction: column;
+    align-items: center;
+    background-image: var(--background-linear-gradient);
+    overflow: visible;
+    justify-content: center;
+    opacity: 0.9;
+  }
+
+  .header__link {
+    display: none;
+  }
+
+  .header.responsive .header__link {
+    display: block;
+    width: 100%;
+    font-size: var(--large-font);
+  }
+
+  .header svg.header__verticalMenu {
+    display: block;
+  }
+}
