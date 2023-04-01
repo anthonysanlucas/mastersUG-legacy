@@ -1,5 +1,7 @@
 # La guía definitiva para conocer a tus profesores
 
+[![mastersug.png](https://i.postimg.cc/bNrD9N0X/mastersug.png)](https://postimg.cc/N5hjgtPb)
+
 Con **Másters UG** podrás conocer cómo será la experiencia con tu próximo profesor, ¿Cómo lo hacemos? 🤔 Al final de cada semestre realizamos una encuesta a los estudiantes en la que eligen a un profesor por cada categoría de votación basándose en su experiencia en clases.
 
 ## Aclaraciones
