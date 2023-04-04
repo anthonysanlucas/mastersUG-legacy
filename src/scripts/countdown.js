@@ -18,7 +18,24 @@ simplyCountdown('#watch-container', {
   // in case of inline set to false
   enableUtc: true, //Use UTC or not - default : false
   onEnd: function () {
-    return
+    const mainContainer = document.getElementById('app')
+
+    return (mainContainer.innerHTML = `
+    <section class="choose">
+        <h3 class="choose__title">Selecciona tu carrera:</h3>
+        <div class="choose__options">
+          <a href="https://forms.gle/HT5CZ7UfnmqquXTMA" class="choose__option"
+            >Ingeniería Civil</a
+          >
+          <a href="https://forms.gle/GrzAsZUuZsY5pkdaA" class="choose__option"
+            >Ingeniería en Software</a
+          >
+          <a href="https://forms.gle/6bBa1XR3fyAn3wvZ6" class="choose__option">
+            Ingenería en Tecnologías de la Información
+          </a>
+        </div>
+    </section>
+    `)
   }, //Callback on countdown end, put your own function here
   refresh: 1000, // default refresh every 1s
   sectionClass: 'simply-section', //section css class

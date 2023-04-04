@@ -34,6 +34,7 @@ body {
   list-style: none;
   column-gap: 0.25rem;
   user-select: none;
+  z-index: 111;
 }
 
 .header__link {
