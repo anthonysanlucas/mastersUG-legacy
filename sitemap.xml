@@ -9,18 +9,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mastersug.live/results/CIVIL/CI_2023_2024/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mastersug.live/results/SOFTWARE/CI_2023_2024/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mastersug.live/results/TI/CI_2023_2024/</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mastersug.live/about/</loc>
     <priority>0.8</priority>
   </url>
