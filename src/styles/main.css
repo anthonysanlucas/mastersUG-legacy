@@ -10,6 +10,7 @@ body {
   top: 0;
   width: 100%;
   background-image: var(--background-linear-gradient);
+  z-index: 1111;
 }
 
 .header__container {
@@ -96,6 +97,36 @@ body {
 
 .footer__link:hover {
   color: var(--hover-accent-color);
+}
+
+/* Results pages */
+.results {
+  max-width: 53.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results__text {
+  background-color: var(--grey-400);
+  padding: 1rem;
+  border-radius: var(--b-radius);
+  line-height: 1.75rem;
+}
+
+.result__title {
+  font-size: var(--large-font);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.result__chart {
+  height: 50rem;
+}
+
+.result__text {
+  color: var(--slate-600);
+  line-height: 1.75rem;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 44rem) {

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../../../public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Civil CI 2023 - 2024 | Resultados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../../../src/styles/normalize.css" />
+    <link rel="stylesheet" href="../../../src/styles/variables.css" />
+    <link rel="stylesheet" href="../../../src/styles/main.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script defer src="./../../../main.js"></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container">
+        <a href="../../../index.html">
+          <img
+            class="header__logo"
+            src="../../../public/mastersug.svg"
+            alt="logo de Vota MastersUG" />
+        </a>
+        <nav class="header__links">
+          <a href="../../../results/" class="header__link">Resultados</a>
+          <a href="../../../about/" class="header__link">Acerca de</a>
+        </nav>
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="#292929"
+          id="verticalMenu"
+          class="header__verticalMenu"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20.5" cy="8.5" r="3.5" fill="inherit" />
+          <circle cx="20.5" cy="20.5" r="3.5" fill="inherit" />
+          <circle cx="20.5" cy="32.5" r="3.5" fill="inherit" />
+        </svg>
+      </div>
+    </header>
+    <main class="main">
+      <section class="results">
+        <p class="results__text">
+          Cada carrera cuenta aproximadamente con más de 50 profesores por lo que solo mostramos el
+          top 15 de las votaciones, consulta cómo interpretar los resultados en la sección acerca
+          de.
+        </p>
+        <article class="result">
+          <h2 class="result__title">Con los que más se aprende</h2>
+          <p class="result__text">
+            Prepárate para expandir tus conocimientos y brillar en clase. 🚀📚
+          </p>
+          <div class="result__chart">
+            <div id="learning-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Con los que menos se aprende</h2>
+          <p class="result__text">
+            Puede que necesites buscar recursos adicionales para complementar tus estudios. 🤔📖
+          </p>
+          <div class="result__chart">
+            <div id="learning-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Difícil de aprobar sus cursos</h2>
+          <div class="result__chart">
+            <p class="result__text">¡El desafío está en el aire! 💪📝</p>
+            <div id="difficulty-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Fácil de aprobar sus cursos</h2>
+          <p class="result__text">¡Relájate, que aprobar será pan comido! 😎🎓</p>
+          <div class="result__chart">
+            <div id="difficulty-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los que más tareas envían</h2>
+          <p class="result__text">
+            Prepárate para el reto de la carga de trabajo, ¡pero será enriquecedor! 💼📋
+          </p>
+          <div class="result__chart">
+            <div id="tasks-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los que menos tareas envían</h2>
+          <p class="result__text">
+            Puedes tener más tiempo libre, ¡pero también menos oportunidades de práctica! 📉📝
+          </p>
+          <div class="result__chart">
+            <div id="tasks-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Interesados por la materia y motivadores</h2>
+          <p class="result__text">
+            ¡Descubre el entusiasmo de estos profesores y deja que te inspiren! 💡🔥
+          </p>
+          <div class="result__chart">
+            <div id="interest-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Menos interesados en la materia y para nada motivadores</h2>
+          <p class="result__text">
+            Puede que necesites encontrar tu propia motivación para enfrentar estos cursos. 🙄😴
+          </p>
+          <div class="result__chart">
+            <div id="interest-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los más empáticos</h2>
+          <p class="result__text">
+            Con estos profesores, sentirás que te comprenden y te apoyan en tu aprendizaje. 🤗❤️
+          </p>
+          <div class="result__chart">
+            <div id="empathy-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los menos empáticos</h2>
+          <p class="result__text">Prepárate para un enfoque más impersonal en la enseñanza. 😕🚫</p>
+          <div class="result__chart">
+            <div id="empathy-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los que promueven la participación en clase</h2>
+          <p class="result__text">¡Prepárate para debates y discusiones animadas! 💬🗣️</p>
+          <div class="result__chart">
+            <div id="participation-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los que frenan la participación en clase</h2>
+          <p class="result__text">
+            Puedes enfrentar retos para expresarte y participar activamente en clase. 🤐🔇
+          </p>
+          <div class="result__chart">
+            <div id="participation-2"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los más puntuales</h2>
+          <p class="result__text">¡Nada de esperar, estos profesores valoran el tiempo! ⌛👍</p>
+          <div class="result__chart">
+            <div id="punctuality-1"></div>
+          </div>
+        </article>
+        <article class="result">
+          <h2 class="result__title">Los menos puntuales</h2>
+          <p class="result__text">
+            Probablemente más de una vez tendrás que esperar a que la clase inicie. 😴🕒
+          </p>
+          <div class="result__chart">
+            <div id="punctuality-2"></div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        Creado con 💙 en la carrera de
+        <a
+          href="https://github.com/anthonysanlucas/mastersUG"
+          target="_blank"
+          class="footer__link accent-text">
+          Tecnologías de la Información
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
