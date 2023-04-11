@@ -70,20 +70,20 @@ const options = {
 function learning1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['CARRERA MANOSALVAS IVETTE', 9],
+    ['CARRERA MANOSALVAS IVETTE', 10],
     ['CHICALA ARROYAVE JORGE', 8],
     ['FLORES MORAN MANUEL', 7],
-    ['ALVARADO UNAMUNO EDUARDO', 6],
-    ['CRESPO MENDOZA ROBERTO', 6],
+    ['ALVARADO UNAMUNO EDUARDO', 7],
+    ['CRESPO MENDOZA ROBERTO', 7],
     ['ACARO CHACON XIMENA', 6],
     ['PADILLA GOMEZ RENZO', 5],
-    ['MARIDUEÑA ARROYAVE MILTON', 4],
+    ['MARIDUEÑA ARROYAVE MILTON', 5],
     ['DIAZ VERA JANETH', 3],
     ['LUNA AVEIGA HARRY', 3],
     ['MOLINA VILLACIS MIGUEL', 3],
     ['OROZCO LARA FAUSTO', 3],
+    ['LAMILLA RUBIO ERICK', 3],
     ['ESPIN PAZMINO LUIS', 2],
-    ['LAMILLA RUBIO ERICK', 2],
     ['ORTIZ AGUILAR WILBER', 2]
   ])
 
@@ -102,8 +102,8 @@ function learning2() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
     ['BARRIGA DIAZ RONALD', 22],
-    ['ESPINOZA MARTINEZ MARIELA', 12],
-    ['FLORES MORAN MANUEL', 8],
+    ['ESPINOZA MARTINEZ MARIELA', 13],
+    ['FLORES MORAN MANUEL', 9],
     ['YTURRALDE VILLAGOMEZ JUAN', 8],
     ['LUNA AVEIGA HARRY', 5],
     ['ACARO CHACON XIMENA', 4],
@@ -114,8 +114,8 @@ function learning2() {
     ['LAMILLA RUBIO ERICK', 2],
     ['OROZCO LARA FAUSTO', 2],
     ['VANEGAS GUILLEN OSWALDO', 2],
-    ['CARRERA MANOSALVAS IVETTE', 1],
-    ['CHICALA ARROYAVE JORGE', 1]
+    ['PICON FARAH CHRISTIAN', 1],
+    ['MOLINA IZURIETA ROSA', 1]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -132,7 +132,7 @@ function learning2() {
 function difficulty1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['FLORES MORAN MANUEL', 23],
+    ['FLORES MORAN MANUEL', 26],
     ['YTURRALDE VILLAGOMEZ JUAN', 12],
     ['ACARO CHACON XIMENA', 7],
     ['ESPIN PAZMINO LUIS', 7],
@@ -143,8 +143,8 @@ function difficulty1() {
     ['CARRERA MANOSALVAS IVETTE', 3],
     ['ESPINOZA BAZAN FABIAN', 2],
     ['PALACIOS ORTIZ FRANSISCO', 2],
-    ['OROZCO LARA FAUSTO', 2],
     ['VERGARA DIAZ NELLY', 2],
+    ['NAVARRETE LLAGUNO PAOLA', 1],
     ['YEPEZ HOLGUIN JESSICA', 1],
     ['CHICALA ARROYAVE JORGE', 1]
   ])
@@ -164,7 +164,7 @@ function difficulty2() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
     ['ALARCON SALVATIERRA PABLO', 13],
-    ['CHICALA ARROYAVE JORGE', 7],
+    ['CHICALA ARROYAVE JORGE', 9],
     ['BARRIGA DIAZ RONALD', 6],
     ['ECHEVERRIA AVILA PABLO', 4],
     ['LUNA AVEIGA HARRY', 4],
@@ -172,12 +172,12 @@ function difficulty2() {
     ['PADILLA GOMEZ RENZO', 4],
     ['QUINTANILLA CASTELLANOS JORGE', 4],
     ['CARRERA MANOSALVAS IVETTE', 3],
+    ['GIRALDO MARTINEZ INGRID', 3],
     ['LAMILLA RUBIO ERICK', 3],
     ['MONTENEGRO PATREL MAURICIO', 3],
     ['RAYMONDI LOMAS WILLIAM', 3],
     ['VERGARA DIAZ NELLY', 3],
-    ['ACARO CHACON XIMENA', 2],
-    ['ASANZA MOREIRA JOSE', 2]
+    ['ACARO CHACON XIMENA', 2]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -194,21 +194,21 @@ function difficulty2() {
 function tasks1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['YTURRALDE VILLAGOMEZ JUAN', 14],
+    ['YTURRALDE VILLAGOMEZ JUAN', 15],
     ['ALARCON SALVATIERRA PABLO', 9],
     ['MONTENEGRO PATREL MAURICIO', 8],
     ['VERGARA DIAZ NELLY', 8],
+    ['ESPINOZA MARTINEZ MARIELA', 6],
     ['CARRERA MANOSALVAS IVETTE', 5],
-    ['ESPINOZA MARTINEZ MARIELA', 5],
+    ['ESPINOZA BAZAN FABIAN', 4],
     ['ALVARADO MARQUEZ MARIANA', 3],
     ['ESPIN PAZMINO LUIS', 3],
-    ['ESPINOZA BAZAN FABIAN', 3],
     ['LUNA AVEIGA HARRY', 3],
     ['NAVARRETE LLAGUNO PAOLA', 3],
     ['PALACIOS ORTIZ FRANSISCO', 3],
+    ['SANCHEZ JIMENEZ ELIAS', 3],
     ['ASANZA MOREIRA JOSE', 2],
-    ['CABANILL BURGOS CECILIA', 2],
-    ['CRESPO MENDOZA ROBERTO', 2]
+    ['CABANILL BURGOS CECILIA', 2]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -225,21 +225,21 @@ function tasks1() {
 function tasks2() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
+    ['FLORES MORAN MANUEL', 17],
     ['BARRIGA DIAZ RONALD', 16],
-    ['FLORES MORAN MANUEL', 15],
     ['CASTRO VERA VANESSA', 7],
     ['ESPIN PAZMINO LUIS', 5],
     ['PICON FARAH CHRISTIAN', 4],
     ['ALVARADO UNAMUNO EDUARDO', 4],
+    ['ORTIZ AGUILAR WILBER', 4],
     ['ARMIJOS VALAREZO LUIS', 3],
     ['ESPINOZA MARTINEZ MARIELA', 3],
     ['GIRALDO MARTINEZ INGRID', 3],
     ['LAMILLA RUBIO ERICK', 3],
-    ['ORTIZ AGUILAR WILBER', 3],
     ['ALARCON SALVATIERRA PABLO', 2],
     ['ARIZAGA GAMBOA JENNY', 2],
     ['CONTRERAS PUCO SEGUNDO', 2],
-    ['OCHOA FLORES ÁNGEL', 2]
+    ['MOLINA VILLACIS MIGUEL', 2]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -256,8 +256,8 @@ function tasks2() {
 function interest1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['CHICALA ARROYAVE JORGE', 10],
-    ['CARRERA MANOSALVAS IVETTE', 8],
+    ['CHICALA ARROYAVE JORGE', 11],
+    ['CARRERA MANOSALVAS IVETTE', 9],
     ['LAMILLA RUBIO ERICK', 7],
     ['FLORES MORAN MANUEL', 5],
     ['MARIDUEÑA ARROYAVE MILTON', 5],
@@ -289,7 +289,7 @@ function interest2() {
     ['Profesor', 'Votos'],
     ['BARRIGA DIAZ RONALD', 26],
     ['ESPINOZA MARTINEZ MARIELA', 11],
-    ['LUNA AVEIGA HARRY', 8],
+    ['LUNA AVEIGA HARRY', 9],
     ['ESPINOZA BAZAN FABIAN', 4],
     ['FLORES MORAN MANUEL', 4],
     ['PICON FARAH CHRISTIAN', 3],
@@ -318,21 +318,21 @@ function interest2() {
 function empathy1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['ALARCON SALVATIERRA PABLO', 8],
+    ['ALARCON SALVATIERRA PABLO', 9],
     ['CRESPO MENDOZA ROBERTO', 7],
     ['ACARO CHACON XIMENA', 5],
     ['DIAZ VERA JANETH', 5],
-    ['CHICALA ARROYAVE JORGE', 4],
+    ['CHICALA ARROYAVE JORGE', 5],
     ['ESPIN PAZMINO LUIS', 4],
     ['LAMILLA RUBIO ERICK', 4],
     ['LUNA AVEIGA HARRY', 4],
     ['MONTENEGRO PATREL MAURICIO', 4],
     ['RAYMONDI LOMAS WILLIAM', 4],
+    ['GIRALDO MARTINEZ INGRID', 4],
     ['ECHEVERRIA AVILA PABLO', 3],
     ['ESPINOZA MARTINEZ MARIELA', 3],
-    ['GIRALDO MARTINEZ INGRID', 3],
     ['PICON FARAH CHRISTIAN', 3],
-    ['QUINTANILLA CASTELLANOS JORGE', 3]
+    ['PADILLA GOMEZ RENZO', 3]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -350,7 +350,7 @@ function empathy2() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
     ['FLORES MORAN MANUEL', 12],
-    ['YTURRALDE VILLAGOMEZ JUAN', 11],
+    ['YTURRALDE VILLAGOMEZ JUAN', 12],
     ['ESPINOZA MARTINEZ MARIELA', 8],
     ['LUNA AVEIGA HARRY', 8],
     ['BARRIGA DIAZ RONALD', 6],
@@ -358,12 +358,12 @@ function empathy2() {
     ['ESPINOZA BAZAN FABIAN', 5],
     ['REAL AVILES KARINA', 4],
     ['CRESPO MENDOZA ROBERTO', 3],
+    ['VANEGAS GUILLEN OSWALDO', 3],
     ['ARIZAGA GAMBOA JENNY', 2],
     ['OROZCO LARA FAUSTO', 2],
     ['ORTIZ AGUILAR WILBER', 2],
     ['PADILLA GOMEZ RENZO', 2],
-    ['PALACIOS ORTIZ FRANSISCO', 2],
-    ['VANEGAS GUILLEN OSWALDO', 2]
+    ['PALACIOS ORTIZ FRANSISCO', 2]
   ])
 
   const view = new google.visualization.DataView(data)
@@ -380,13 +380,13 @@ function empathy2() {
 function participation1() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
+    ['CHICALA ARROYAVE JORGE', 7],
     ['CARRERA MANOSALVAS IVETTE', 6],
-    ['CHICALA ARROYAVE JORGE', 5],
     ['ESPIN PAZMINO LUIS', 5],
     ['FLORES MORAN MANUEL', 5],
     ['LAMILLA RUBIO ERICK', 5],
+    ['MARIDUEÑA ARROYAVE MILTON', 5],
     ['DIAZ VERA JANETH', 4],
-    ['MARIDUEÑA ARROYAVE MILTON', 4],
     ['ACARO CHACON XIMENA', 3],
     ['ALVARADO UNAMUNO EDUARDO', 3],
     ['ARIZAGA GAMBOA JENNY', 3],
@@ -411,10 +411,10 @@ function participation1() {
 function participation2() {
   const data = google.visualization.arrayToDataTable([
     ['Profesor', 'Votos'],
-    ['FLORES MORAN MANUEL', 12],
-    ['LUNA AVEIGA HARRY JACINTO', 11],
+    ['FLORES MORAN MANUEL', 13],
+    ['LUNA AVEIGA HARRY JACINTO', 12],
     ['YTURRALDE VILLAGOMEZ JUAN', 11],
-    ['ESPIN PAZMINO LUIS', 8],
+    ['ESPIN PAZMINO LUIS', 9],
     ['ESPINOZA MARTINEZ MARIELA', 8],
     ['ESPINOZA BAZAN FABIAN', 5],
     ['BARRIGA DIAZ RONALD', 4],
@@ -424,7 +424,7 @@ function participation2() {
     ['PADILLA GOMEZ RENZO', 2],
     ['REAL AVILES KARINA', 2],
     ['VANEGAS GUILLEN OSWALDO', 2],
-    ['ACARO CHACON XIMENA', 2],
+    ['SANCHEZ JIMENEZ ELIAS', 2],
     ['ARIAS DOMINGUEZ MARJURIE', 2]
   ])
 
@@ -444,15 +444,15 @@ function punctuality1() {
     ['Profesor', 'Votos'],
     ['ALARCON SALVATIERRA PABLO', 10],
     ['CARRERA MANOSALVAS IVETTE', 10],
+    ['FLORES MORAN MANUEL', 8],
     ['ACARO CHACON XIMENA', 6],
     ['CHICALA ARROYAVE JORGE', 6],
-    ['FLORES MORAN MANUEL', 6],
     ['ASANZA MOREIRA JOSE', 4],
     ['CRESPO MENDOZA ROBERTO', 4],
     ['LUNA AVEIGA HARRY', 4],
+    ['MONTENEGRO PATREL MAURICIO', 4],
     ['DIAZ VERA JANETH', 3],
     ['ECHEVERRIA AVILA PABLO', 3],
-    ['MONTENEGRO PATREL MAURICIO', 3],
     ['RAYMONDI LOMAS WILLIAM', 3],
     ['YTURRALDE VILLAGOMEZ JUAN', 3],
     ['CABANILL BURGOS CECILIA', 2],
@@ -476,18 +476,18 @@ function punctuality2() {
     ['BARRIGA DIAZ RONALD', 34],
     ['ESPINOZA MARTINEZ MARIELA', 9],
     ['OROZCO LARA FAUSTO', 5],
-    ['MARIDUEÑA ARROYAVE MILTON', 4],
+    ['MARIDUEÑA ARROYAVE MILTON', 5],
     ['CHOEZ ACOSTA LUIS', 3],
     ['PICON FARAH CHRISTIAN', 3],
+    ['VASQUEZ BERMUDEZ MITCHEL', 3],
     ['CASTRO VERA VANESSA', 2],
     ['ESPIN PAZMINO LUIS', 2],
     ['FLORES MORAN MANUEL', 2],
     ['MOLINA VILLACIS MIGUEL', 2],
     ['VANEGAS GUILLEN OSWALDO', 2],
-    ['VASQUEZ BERMUDEZ MITCHEL', 2],
     ['YTURRALDE VILLAGOMEZ JUAN', 2],
-    ['ALARCON SALVATIERRA PABLO', 1],
-    ['ARIAS DOMINGUEZ MARJURIE', 1]
+    ['ORTIZ AGUILAR WILBER', 2],
+    ['ALARCON SALVATIERRA PABLO', 1]
   ])
 
   const view = new google.visualization.DataView(data)
