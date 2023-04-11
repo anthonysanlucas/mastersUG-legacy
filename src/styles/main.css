@@ -129,6 +129,25 @@ body {
   margin-bottom: 0;
 }
 
+/* information (Voting closed) */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information__title {
+  font-size: var(--large-font);
+  color: var(--slate-600);
+  text-align: center;
+  max-width: 50rem;
+  line-height: 2.5rem;
+}
+
+
 @media screen and (max-width: 44rem) {
   .header.responsive .header__links {
     position: absolute;
